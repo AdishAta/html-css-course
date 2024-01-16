@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body{
+      font-family:Arial;
+    }
+    .in{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .out{
+      width:350px;
+
+      border-radius: 5px;
+      border-width:1px;
+      border-style:solid;
+      border-color:rgb(200,200,200);
+    }
+
+    .number{
+      background-color: rgb(9, 81, 224);
+      border-radius: 15px;
+      padding: 5px 8px 5px;
+      color:white;
+      margin-right:10px
+    }
+  </style>
+</head>
+<body>
+  <div class="out">
+    <div class="in">
+      <p style="flex:1;
+      max-width: 300px;
+      margin-left:10px;">Home</p>
+      <p class="number">14</p>
+    </div>
+    <div class="in">
+      <p style="flex:1;
+      max-width: 300px;
+      margin-left:10px;">Notifications</p>
+      
+      <p class="number">3</p>
+    </div>
+    <div class="in">
+      <p style="flex:1;
+      max-width: 300px;
+      margin-left:10px;">Messages</p>
+      <p class="number">5</p>
+    </div>
+  </div>
+</body>
+</html>
